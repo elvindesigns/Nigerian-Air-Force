@@ -3,11 +3,22 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  letter-spacing: .3px;
 }
 
 .header {
   background-image: url(../img/header-bg.png);
   height: 600px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header2 {
+  background-image: url(../img/pagetop3.png), linear-gradient(green, greenyellow);
+  height: 400px;
   width: 100%;
   background-size: cover;
   display: flex;
@@ -52,10 +63,24 @@
   background-color: #f5bf42;
   color: #1d2236;
 } */
+ol>li{
+  margin-left: 50px;
+  line-height: 30px;
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 0.5px;
+}
+
 .navbar {
   background-color: #1d2236;
   border-radius: 0px;
+  margin-bottom: 0px;
 }
+.padding-top{
+  padding-top: 20px;
+}
+
 .navbar-brand,
 .navbar-nav > li > a {
   color: white;
